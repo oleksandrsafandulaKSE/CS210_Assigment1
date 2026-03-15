@@ -1,0 +1,14 @@
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/bin/Debug/net10.0/Algorithms_Assigment1
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/bin/Debug/net10.0/Algorithms_Assigment1.deps.json
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/bin/Debug/net10.0/Algorithms_Assigment1.runtimeconfig.json
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/bin/Debug/net10.0/Algorithms_Assigment1.dll
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/bin/Debug/net10.0/Algorithms_Assigment1.pdb
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.AssemblyInfoInputs.cache
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.AssemblyInfo.cs
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.csproj.CoreCompileInputs.cache
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.dll
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/refint/Algorithms_Assigment1.dll
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.pdb
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.genruntimeconfig.cache
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/ref/Algorithms_Assigment1.dll
