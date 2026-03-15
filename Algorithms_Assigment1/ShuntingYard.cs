@@ -189,6 +189,8 @@ public class ShuntingYard
 
         return _outputPolishTokens;
     }
+    
+    
     //3 + 4 * 2 / ( 1 - 5 ) ^ 2
     //3 4 2 * 1 5 - 2 ^ / +
     public double CalcExp()
