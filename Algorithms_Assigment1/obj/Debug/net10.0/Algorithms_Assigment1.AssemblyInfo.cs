@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algorithms_Assigment1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b515cf4ff919ca4a88079bab48ae4021b7b9471b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algorithms_Assigment1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algorithms_Assigment1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

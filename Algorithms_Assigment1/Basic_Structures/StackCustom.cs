@@ -28,7 +28,7 @@ public class StackCustom<T>
     public T Pop()
     {
         if (_top == -1)
-            throw new Exception("Stack is empty");
+             throw new Exception("Stack is empty");
         
         return _items[_top--];
     }

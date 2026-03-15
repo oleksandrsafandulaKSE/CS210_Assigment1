@@ -7,16 +7,13 @@ class Program
     static void Main(string[] args)
     {
 
-        var ob = new ShuntingYard("2 + (34 + 5) ^ 2 + 2 / 3");
-
-        var polish = ob.GetPolishNotation();
-
-        // while (!polish.IsEmpty())
-        // {
-        //     Console.Write(polish.Dequeue() + " ");
-        // }
+        var ob = new ShuntingYard("3 * (5 + 2) - 2 ");
         
         
-        Console.Write(ob.CalcExp());
+
+       ob.GetASTstring(ob.AST()); 
+       Console.WriteLine(ob.ASTstring);
+        
+       Console.Write(ob.CalcExp());
     }
 }

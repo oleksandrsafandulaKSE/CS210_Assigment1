@@ -12,3 +12,4 @@
 /Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.pdb
 /Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.genruntimeconfig.cache
 /Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/ref/Algorithms_Assigment1.dll
+/Users/oleksandrsafandula/Desktop/C#/Algorithms_Assigment1/Algorithms_Assigment1/obj/Debug/net10.0/Algorithms_Assigment1.sourcelink.json

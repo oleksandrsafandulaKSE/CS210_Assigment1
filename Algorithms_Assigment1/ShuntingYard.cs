@@ -16,10 +16,12 @@ public class ShuntingYard
 
     private QueueCustom<string> _inputTokens = new QueueCustom<string>();
 
+    public string ASTstring { get; private set; }
+
     public ShuntingYard(string input_str)
     {
         TokenizeStr(input_str);
-        var de = "";
+        ASTstring = "";
     }
 
     private int OperatorEval(string oper)
@@ -189,8 +191,90 @@ public class ShuntingYard
 
         return _outputPolishTokens;
     }
-    
-    
+
+    private QueueCustom<string> CopingPolishReverse()
+    {
+        var copyQueue = new QueueCustom<string>();
+        var tempQueue = new QueueCustom<string>();
+
+
+        while (!_outputPolishTokens.IsEmpty())
+        {
+            tempQueue.Enqueue(_outputPolishTokens.Dequeue());
+        }
+
+        while (!tempQueue.IsEmpty())
+        {
+
+            var item = tempQueue.Dequeue();
+            
+            _outputPolishTokens.Enqueue(item);
+            copyQueue.Enqueue(item);
+        }
+        
+        
+        return copyQueue;
+    }
+    public Node AST()
+    {
+        var copiedPolish = CopingPolishReverse();
+        var nodesStack = new StackCustom<Node>();
+
+        while (!copiedPolish.IsEmpty())
+        {
+            var item = copiedPolish.Dequeue();
+
+            var newNode = new Node(item);
+
+            if (double.TryParse(item, out var number))
+            {
+                newNode.Value = number.ToString();
+                nodesStack.Push(newNode);
+            }
+            else
+            {
+                var rightNode = nodesStack.Pop();
+                var leftNode = nodesStack.Pop();
+
+                newNode.LeftSon = leftNode;
+                newNode.RightSon = rightNode;
+                newNode.Value = item;
+                
+                nodesStack.Push(newNode);
+            }
+        }
+
+        return nodesStack.Pop();
+        
+    }
+
+    public void GetASTstring(Node? Nodee)
+    {
+        
+        ASTstring += Nodee.Value;
+        
+        if (Nodee.LeftSon is null)
+            return;
+        
+        ASTstring += "(";
+        
+        GetASTstring(Nodee.LeftSon);
+
+        if (Nodee.RightSon is null)
+            return;
+        
+        ASTstring += ", ";
+        
+        GetASTstring(Nodee.RightSon);
+
+        ASTstring += ")";
+
+
+
+
+
+
+    }
     //3 + 4 * 2 / ( 1 - 5 ) ^ 2
     //3 4 2 * 1 5 - 2 ^ / +
     public double CalcExp()
